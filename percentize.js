@@ -1,3 +1,5 @@
+// <https://github.com/lancevo/ng-percentize/>
+
 angular.module('ng-percentize',[]).filter('percentize', function () {
   return function (input, decimal) {
     if (typeof decimal === 'undefined') {
